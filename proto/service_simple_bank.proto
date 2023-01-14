@@ -8,11 +8,11 @@ import "rpc_update_user.proto";
 import "rpc_login_user.proto";
 import "protoc-gen-openapiv2/options/annotations.proto";
 
-option go_package = "github.com/techschool/simplebank/pb";
+option go_package = "github.com/luckyluKINGG/bank_transactions/pb";
 
 option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
 	info: {
-		title: "Simple Bank API";
+		title: "Bank Transactions API";
 		version: "1.2";
 		contact: {
 			name: "Tech School";
@@ -22,7 +22,7 @@ option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
 	};
 };
 
-service SimpleBank {
+service BankTransactions {
     rpc CreateUser (CreateUserRequest) returns (CreateUserResponse) {
         option (google.api.http) = {
             post: "/v1/create_user"
