@@ -12,10 +12,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
-	mockdb "github.com/techschool/simplebank/db/mock"
-	db "github.com/techschool/simplebank/db/sqlc"
-	"github.com/techschool/simplebank/token"
-	"github.com/techschool/simplebank/util"
+	mockdb "github.com/luckyluKINGG/bank_transactions/db/mock"
+	db "github.com/luckyluKINGG/bank_transactions/db/sqlc"
+	"github.com/luckyluKINGG/bank_transactions/token"
+	"github.com/luckyluKINGG/bank_transactions/util"
 )
 
 func TestTransferAPI(t *testing.T) {
