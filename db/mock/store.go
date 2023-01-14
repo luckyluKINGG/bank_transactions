@@ -5,7 +5,7 @@ import (
 	context "context"
 	gomock "github.com/golang/mock/gomock"
 	uuid "github.com/google/uuid"
-	db "github.com/techschool/simplebank/db/sqlc"
+	db "github.com/luckyluKINGG/bank_transactions/db/sqlc"
 	reflect "reflect"
 )
 
