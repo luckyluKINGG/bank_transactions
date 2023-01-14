@@ -76,7 +76,7 @@ var file_service_bank_transactions_proto_rawDesc = []byte{
 	0x6f, 0x33,
 }
 
-var file_service_simple_bank_proto_goTypes = []interface{}{
+var file_service_bank_transactions_proto_goTypes = []interface{}{
 	(*CreateUserRequest)(nil),  // 0: pb.CreateUserRequest
 	(*UpdateUserRequest)(nil),  // 1: pb.UpdateUserRequest
 	(*LoginUserRequest)(nil),   // 2: pb.LoginUserRequest
