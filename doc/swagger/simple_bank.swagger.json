@@ -1,17 +1,17 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Simple Bank API",
+    "title": "Bank Transactions API",
     "version": "1.2",
     "contact": {
       "name": "Tech School",
-      "url": "https://github.com/techschool",
-      "email": "techschool.guru@gmail.com"
+      "url": "https://github.com/luckyluKINGG",
+      "email": "lukasz.dzieszko95@gmail.com"
     }
   },
   "tags": [
     {
-      "name": "SimpleBank"
+      "name": "BankTransactions"
     }
   ],
   "consumes": [
@@ -25,7 +25,7 @@
       "post": {
         "summary": "Create new user",
         "description": "Use this API to create a new user",
-        "operationId": "SimpleBank_CreateUser",
+        "operationId": "BankTransactions_CreateUser",
         "responses": {
           "200": {
             "description": "A successful response.",
@@ -59,7 +59,7 @@
       "post": {
         "summary": "Login user",
         "description": "Use this API to login user and get access token \u0026 refresh token",
-        "operationId": "SimpleBank_LoginUser",
+        "operationId": "BankTransactions_LoginUser",
         "responses": {
           "200": {
             "description": "A successful response.",
@@ -85,7 +85,7 @@
           }
         ],
         "tags": [
-          "SimpleBank"
+          "BankTransactions"
         ]
       }
     },
@@ -93,7 +93,7 @@
       "patch": {
         "summary": "Update user",
         "description": "Use this API to update user",
-        "operationId": "SimpleBank_UpdateUser",
+        "operationId": "BankTransactions_UpdateUser",
         "responses": {
           "200": {
             "description": "A successful response.",
@@ -119,7 +119,7 @@
           }
         ],
         "tags": [
-          "SimpleBank"
+          "BankTransactions"
         ]
       }
     }
