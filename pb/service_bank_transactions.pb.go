@@ -2,7 +2,7 @@
 // versions:
 // 	protoc-gen-go v1.28.0
 // 	protoc        v3.21.5
-// source: service_simple_bank.proto
+// source: service_bank_transactions.proto
 
 package pb
 
@@ -21,9 +21,9 @@ const (
 	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)
 )
 
-var File_service_simple_bank_proto protoreflect.FileDescriptor
+var File_service_bank_transactions_proto protoreflect.FileDescriptor
 
-var file_service_simple_bank_proto_rawDesc = []byte{
+var file_service_bank_transactions_proto_rawDesc = []byte{
 	0x0a, 0x19, 0x73, 0x65, 0x72, 0x76, 0x69, 0x63, 0x65, 0x5f, 0x73, 0x69, 0x6d, 0x70, 0x6c, 0x65,
 	0x5f, 0x62, 0x61, 0x6e, 0x6b, 0x2e, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x12, 0x02, 0x70, 0x62, 0x1a,
 	0x1c, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x61, 0x70, 0x69, 0x2f, 0x61, 0x6e, 0x6e, 0x6f,
@@ -84,13 +84,13 @@ var file_service_simple_bank_proto_goTypes = []interface{}{
 	(*UpdateUserResponse)(nil), // 4: pb.UpdateUserResponse
 	(*LoginUserResponse)(nil),  // 5: pb.LoginUserResponse
 }
-var file_service_simple_bank_proto_depIdxs = []int32{
-	0, // 0: pb.SimpleBank.CreateUser:input_type -> pb.CreateUserRequest
-	1, // 1: pb.SimpleBank.UpdateUser:input_type -> pb.UpdateUserRequest
-	2, // 2: pb.SimpleBank.LoginUser:input_type -> pb.LoginUserRequest
-	3, // 3: pb.SimpleBank.CreateUser:output_type -> pb.CreateUserResponse
-	4, // 4: pb.SimpleBank.UpdateUser:output_type -> pb.UpdateUserResponse
-	5, // 5: pb.SimpleBank.LoginUser:output_type -> pb.LoginUserResponse
+var file_service_bank_transactions_proto_depIdxs = []int32{
+	0, // 0: pb.BankTransactions.CreateUser:input_type -> pb.CreateUserRequest
+	1, // 1: pb.BankTransactions.UpdateUser:input_type -> pb.UpdateUserRequest
+	2, // 2: pb.BankTransactions.LoginUser:input_type -> pb.LoginUserRequest
+	3, // 3: pb.BankTransactions.CreateUser:output_type -> pb.CreateUserResponse
+	4, // 4: pb.BankTransactions.UpdateUser:output_type -> pb.UpdateUserResponse
+	5, // 5: pb.BankTransactions.LoginUser:output_type -> pb.LoginUserResponse
 	3, // [3:6] is the sub-list for method output_type
 	0, // [0:3] is the sub-list for method input_type
 	0, // [0:0] is the sub-list for extension type_name
@@ -98,9 +98,9 @@ var file_service_simple_bank_proto_depIdxs = []int32{
 	0, // [0:0] is the sub-list for field type_name
 }
 
-func init() { file_service_simple_bank_proto_init() }
-func file_service_simple_bank_proto_init() {
-	if File_service_simple_bank_proto != nil {
+func init() { file_service_bank_transactions_proto_init() }
+func file_service_bank_transactions_proto_init() {
+	if File_service_bank_transactions_proto != nil {
 		return
 	}
 	file_rpc_create_user_proto_init()
@@ -110,17 +110,17 @@ func file_service_simple_bank_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: file_service_simple_bank_proto_rawDesc,
+			RawDescriptor: file_service_bank_transactions_proto_rawDesc,
 			NumEnums:      0,
 			NumMessages:   0,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_service_simple_bank_proto_goTypes,
-		DependencyIndexes: file_service_simple_bank_proto_depIdxs,
+		GoTypes:           file_service_bank_transactions_proto_goTypes,
+		DependencyIndexes: file_service_bank_transactions_proto_depIdxs,
 	}.Build()
-	File_service_simple_bank_proto = out.File
-	file_service_simple_bank_proto_rawDesc = nil
-	file_service_simple_bank_proto_goTypes = nil
-	file_service_simple_bank_proto_depIdxs = nil
+	File_service_bank_transactions_proto = out.File
+	file_service_bank_transactions_proto_rawDesc = nil
+	file_service_bank_transactions_proto_goTypes = nil
+	file_service_bank_transactions_proto_depIdxs = nil
 }
